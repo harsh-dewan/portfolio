@@ -2,15 +2,9 @@
     margin:  0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-    color: white;
 }
 
 body {
     background-color: #003a78;
     background-image: url("https://www.transparenttextures.com/patterns/argyle.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
