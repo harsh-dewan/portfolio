@@ -1,21 +1,14 @@
 .header-container {
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid green;
 }
 
 .header-heading {
-
     font-family: times, Times New Roman, times-roman, georgia, serif;
-	margin: 10px;
-	padding: 10px;
-	font-size: 70px;
-	font-weight: bold;
-    margin: auto;
-    border: 1px solid black;
-    display: inline-block;
-    text-align: center;
 }
 
-
-.header-navbar {
-
+.header-navbar ul {
+    display: flex;
 }

@@ -5,7 +5,9 @@ function Header()
     return (
         <>
         <div className='header-container'>
-            <h1 className='header-heading'>HARSH DEWAN</h1>
+            <div className='header-heading'>
+                <h1>HARSH DEWAN</h1>
+            </div>
             <div className='header-navbar'>
                 <ul>
                     <li>About</li>

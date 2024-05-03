@@ -6,7 +6,7 @@ function Education() {
         <div className="education">
             <h1 className='education-heading'>Education</h1>
             <div className='education-details'>
-                <div className='education-masters'>
+                <div className='education-  '>
                     <p className='education-course'>Master of Applied Computing</p>
                     <p className='education-university'>University of Windsor</p>
                     <p className='education-duration'>Spetember 2023 -  December 2024</p>

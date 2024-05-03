@@ -4,7 +4,9 @@ function Skills() {
     return(
         <>
         <div className="skills">
-            <h1 className="skills-title">Skills</h1>
+            <div className='skills-title'>
+                <h1>Skills</h1>
+            </div>
             <div className="skills-details">
                 <p>Proficient at Data Structures and Algorithms</p>
                 <p>Programming Languages: C, C++, Java, J2EE, Python, HTML5, CSS3, JavaScript</p>

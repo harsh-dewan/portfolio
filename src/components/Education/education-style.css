@@ -1,24 +1,24 @@
 .education {
 
+    border: 1px solid greenyellow;
+    
 }
 
 .education-heading {
 
     font-family: times, Times New Roman, times-roman, georgia, serif;
-	margin: 10px;
-	padding: 10px;
-	font-size: 70px;
-	font-weight: bold;
-    margin-left: 0px;
-    margin-top: 0px;
-    border: 1px solid black;
-    display: inline-block;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .education-details {
 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
+
 
 .education-masters {
 
