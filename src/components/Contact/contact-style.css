@@ -1,27 +1,37 @@
 .contact {
     display: flex;
     justify-content: space-between;
-    border: 1px solid beige;
+    color: white;
+    margin-top: 20px;
+    border-radius: 30px;
 }
 
 .contact-title {
     font-family: times, Times New Roman, times-roman, georgia, serif;
-    border: 1px solid blueviolet;
+    border-radius: 30px;
     width: 30%;
-    margin: 0;
+    margin-right: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #0044ab;
+    background-image: url("https://www.transparenttextures.com/patterns/argyle.png");
+}
+
+h1 {
+    font-size: 50px;
 }
 
 .contact-content {
-   
-    border: 1px solid red;
+    border-radius: 30px;
     width: 70%;
+    background-color: #0044ab;
+    background-image: url("https://www.transparenttextures.com/patterns/argyle.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 .contact-name-heading {
-    margin: 10px;
+    margin: 20px;
     display: inline-block;
     display: flex;
     justify-content: center;
@@ -32,8 +42,6 @@
     font-size: 30px;
 }
 
-
-
 .contact-nav ul {
     display: flex;
     justify-content: center;
@@ -42,16 +50,36 @@
 .contact-social-link ul {
     display: flex;
     justify-content: center;
+    color: white;
 }
 
 ul li {
     padding: 10px;
-    margin: 10px;
+    margin: 15px;
+    color: inherit;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 90px;
+    text-align: center;
+}
+
+li:hover,
+li:hover a {
+    background-color: #3a2d97;
+    color: white;
+    cursor: pointer;
+}
+
+a {
+    color: black;
 }
 
 .contact-last-notes {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px;
+    margin: 20px;
+    font-size: larger;
 }

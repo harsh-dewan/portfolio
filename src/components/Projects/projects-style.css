@@ -1,22 +1,64 @@
 .projects {
-    border: 1px solid darkred;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.project-title {
+.project-title h1 {
     font-family: times, Times New Roman, times-roman, georgia, serif;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #0044ab;
+    margin: 10px;
 }
+
 
 .project-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
 }
 
 .project-details {
-    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    margin: 30px;
+    background-color: #0044ab;
+    background-image: url("https://www.transparenttextures.com/patterns/argyle.png");
+    color: white;
+    border-radius: 10px;
+}
+
+.project-heading, .project-tech, .project-description, .github-link {
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+.github-link {
+    text-decoration:  none;
+    margin: 0;
+    height: 40px;
+    width: 80px;
+    margin-left: 20px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    color: #0044ab;
+    background-color: white;
+    font-weight: bold;
+}
+
+.github-link:hover {
+    color: white;
+    background-color: #0044ab;
+}
+
+.project-tech {
+
+}
+
+.project-description {
 
 }

@@ -2,14 +2,19 @@
     margin:  0;
     padding: 0;
     box-sizing: border-box;
-    color: white;
     list-style: none;
     text-decoration: none;
 }
 
 body {
-    background-color: #e76f51;
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 0;
+}
+
+.root {
+    background-color: #d3d7dd;
+background-image: url("https://www.transparenttextures.com/patterns/dark-exa.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    border-radius: 30px;
 }

@@ -1,7 +1,10 @@
-.education {
+.education-container {
 
-    border: 1px solid greenyellow;
-    
+    border-radius: 30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .education-heading {
@@ -10,23 +13,49 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #0044ab;
+    background-image: url("https://www.transparenttextures.com/patterns/argyle.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */    border-top-left-radius: 29px;
+    border-radius: 30px;
+    color: white;
+    width: 30%;
+    height: 200px;
+}
+
+h1 {
+    font-size: 50px;
 }
 
 .education-details {
-
+    
+    width: 70%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    border-bottom-left-radius: 29px;
+    border-bottom-right-radius: 29px;
 }
 
 
-.education-masters {
-
+.education {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #0044ab;
+    background-image: url("https://www.transparenttextures.com/patterns/argyle.png");
+    color: white;
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */    
 }
 
-.education-bachelor {
-
+.education p {
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
 }
+
 
 .education-course {
 
